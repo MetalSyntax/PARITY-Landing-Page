@@ -8,7 +8,7 @@ const Footer: React.FC = () => {
           <div className="col-span-2 md:col-span-1">
             <div className="flex items-center gap-2 mb-4">
                 <img 
-                    src="https://parity-finance.vercel.app/pwa-512x512.png" 
+                    src="/images/pwa-512x512.png" 
                     alt="Parity Logo" 
                     className="w-6 h-6 rounded"
                 />
@@ -17,13 +17,13 @@ const Footer: React.FC = () => {
             <p className="text-sm text-gray-400 mb-6 max-w-xs">
               Simplificando las finanzas personales para el mundo moderno. Privado, rápido y hermoso.
             </p>
-            <div className="flex space-x-4">
+            {/*<div className="flex space-x-4">
               <a href="#" className="text-gray-400 hover:text-primary transition"><span className="material-icons-round">facebook</span></a>
               <a href="#" className="text-gray-400 hover:text-primary transition"><span className="material-icons-round">alternate_email</span></a>
-            </div>
+            </div>*/}
           </div>
           
-          <div>
+          {/*<div>
             <h4 className="font-semibold text-white mb-4">Producto</h4>
             <ul className="space-y-2 text-sm text-gray-400">
               <li><a href="#features" className="hover:text-primary transition">Características</a></li>
@@ -58,15 +58,15 @@ const Footer: React.FC = () => {
                 Suscribirse
               </button>
             </form>
-          </div>
+          </div>*/}
         </div>
         
         <div className="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-xs text-gray-500">
-            © 2024 PARITY Inc. Todos los derechos reservados.
+            © 2026 PARITY Todos los derechos reservados.
           </p>
           <div className="flex gap-4 text-xs text-gray-500 items-center">
-            <span>Diseñado con <span className="text-red-500">❤️</span></span>
+            <span>Diseñado y Desarrollado por <a href="https://metalsyntax.vercel.app/" target="_blank">MetalSyntax</a> con <span className="text-red-500">❤️</span></span>
           </div>
         </div>
       </div>

@@ -3,6 +3,7 @@ import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Features from './components/Features';
 import SimplicitySection from './components/SimplicitySection';
+import SecuritySection from './components/SecuritySection';
 import Footer from './components/Footer';
 
 function App() {
@@ -17,6 +18,8 @@ function App() {
         
         <SimplicitySection />
         
+        <SecuritySection />
+        
         {/* Platforms Section */}
         <section className="py-16 bg-[#161618]/50 border-t border-gray-800">
           <div className="max-w-4xl mx-auto px-4 text-center">
@@ -28,11 +31,11 @@ function App() {
                 </div>
                 <span className="font-medium text-sm text-gray-300">Web PWA</span>
               </div>
-              <div className="flex flex-col items-center gap-3 group cursor-pointer">
-                <div className="w-16 h-16 bg-[#161618] rounded-2xl flex items-center justify-center shadow-sm border border-gray-700 group-hover:border-green-500/50 transition-colors">
-                  <span className="material-icons-round text-3xl text-green-500">android</span>
+              <div className="flex flex-col items-center gap-3 opacity-50 grayscale cursor-not-allowed">
+                <div className="w-16 h-16 bg-[#161618] rounded-2xl flex items-center justify-center shadow-sm border border-gray-800">
+                  <span className="material-icons-round text-3xl text-gray-500">android</span>
                 </div>
-                <span className="font-medium text-sm text-gray-300">Android</span>
+                <span className="font-medium text-sm text-gray-300">Android (Pronto)</span>
               </div>
               <div className="flex flex-col items-center gap-3 opacity-50 grayscale cursor-not-allowed">
                 <div className="w-16 h-16 bg-[#161618] rounded-2xl flex items-center justify-center shadow-sm border border-gray-700">

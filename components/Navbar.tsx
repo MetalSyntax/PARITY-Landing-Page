@@ -7,7 +7,7 @@ const Navbar: React.FC = () => {
         <div className="flex justify-between h-16 items-center">
           <div className="flex-shrink-0 flex items-center gap-2 cursor-pointer" onClick={() => window.scrollTo(0, 0)}>
             <img 
-              src="https://parity-finance.vercel.app/pwa-512x512.png" 
+              src="/images/pwa-512x512.png" 
               alt="Parity Logo" 
               className="w-8 h-8 rounded-lg"
             />

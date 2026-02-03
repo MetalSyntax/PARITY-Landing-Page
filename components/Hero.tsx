@@ -31,17 +31,17 @@ const Hero: React.FC = () => {
                 <span className="material-icons-round">web</span>
                 <span>Abrir Web PWA</span>
               </a>
-              <a href="#" className="flex items-center justify-center gap-3 bg-white text-black px-8 py-4 rounded-xl font-bold transition-all transform hover:scale-105 border border-transparent hover:bg-gray-200">
+              <button disabled className="block items-center justify-center gap-3 bg-[#161618] text-gray-500 px-8 py-4 rounded-xl font-bold border border-gray-800 cursor-not-allowed opacity-75">
                 <span className="material-icons-round">android</span>
-                <span>Google Play</span>
-              </a>
-              <button disabled className="flex items-center justify-center gap-3 bg-[#161618] text-gray-500 px-8 py-4 rounded-xl font-bold border border-gray-800 cursor-not-allowed opacity-75">
+                <span>Próximamente</span>
+              </button>
+              <button disabled className="block items-center justify-center gap-3 bg-[#161618] text-gray-500 px-8 py-4 rounded-xl font-bold border border-gray-800 cursor-not-allowed opacity-75">
                 <span className="material-icons-round">apple</span>
                 <span>Próximamente</span>
               </button>
             </div>
             
-            <div className="mt-10 flex items-center justify-center lg:justify-start gap-4 text-sm text-gray-500">
+            {/*<div className="mt-10 flex items-center justify-center lg:justify-start gap-4 text-sm text-gray-500">
               <div className="flex -space-x-2">
                 {[1, 2, 3].map((i) => (
                     <img 
@@ -53,7 +53,7 @@ const Hero: React.FC = () => {
                 ))}
               </div>
               <p>Con la confianza de +10,000 primeros usuarios</p>
-            </div>
+            </div>*/}
           </div>
           
           {/* Right Content - Phone Mockup */}

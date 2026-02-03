@@ -2,7 +2,7 @@ import React from 'react';
 
 const SimplicitySection: React.FC = () => {
   return (
-    <section className="py-20 overflow-hidden">
+    <section id="dashboard" className="py-20 overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="lg:grid lg:grid-cols-12 lg:gap-16 items-center">
           
